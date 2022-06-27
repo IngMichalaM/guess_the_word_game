@@ -55,25 +55,3 @@ while current_wrong_guesses <= TOTAL_WRONG_GUESSES:
                 print(f'Ok. The word was "{word_to_be_guessed}". Better luck next time.')
                 break
 
-
-    #
-    # if letter in word_to_be_guessed:
-    #     print(f"Good guess! Letter '{letter}' is in Player's 1 word.")
-    #     guessed_word = update_guessed_word(letter, guessed_word)
-    #     display_word(guessed_word)
-    #     if not '_' in guessed_word:
-    #         print(f'Your did it! Great job. The word is "{word_to_be_guessed}".')
-    #         break
-    # else:
-    #     current_wrong_guesses += 1
-    #     guesses_left = TOTAL_WRONG_GUESSES - current_wrong_guesses
-    #
-    #     # print(f"{user_input} is even (sudy)" if is_even else f"{user_input} is odd")
-    #
-    #     print(f"Nope, this letter is not in Player's 1 word. You have {guesses_left} guess", end="")
-    #     print(f" left." if guesses_left == 1 else f"es left.")
-    #
-    #     # if guesses_left == 1:
-    #     #     print(f"Nope, this letter is not in Player's 1 word. You have {guesses_left} guess left.")
-    #     # else:
-    #     #     print(f"Nope, this letter is not in Player's 1 word. You have {guesses_left} guesses left.")
